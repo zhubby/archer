@@ -9,7 +9,7 @@ pub mod sol_crowdfunding_plat {
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         Ok(())
     }
-}
+}   
 
 #[derive(Accounts)]
 pub struct Initialize {}
