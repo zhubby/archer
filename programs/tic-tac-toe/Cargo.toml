@@ -1,12 +1,12 @@
 [package]
-name = "sol-crowdfunding-plat"
+name = "tic-tac-toe"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "sol_crowdfunding_plat"
+name = "tic_tac_toe"
 
 [features]
 no-entrypoint = []
@@ -17,3 +17,5 @@ default = []
 
 [dependencies]
 anchor-lang = "0.25.0"
+num-traits = "0.2"
+num-derive = "0.3"
